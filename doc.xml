@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Root>
+	<DocumentRef.ПоступлениеТоваров Загрузка="1">
+		<d3p1:dateTime xmlns:d3p1="http://www.w3.org/2001/XMLSchema" Имя="Дата">2023-10-24T10:44:33</d3p1:dateTime>
+		<d3p1:string xmlns:d3p1="http://www.w3.org/2001/XMLSchema" Имя="Номер">000000007</d3p1:string>
+		<CatalogRef.Контрагенты Имя="Поставщик">b5fa999f-534b-11df-99a5-00241dd40e22</CatalogRef.Контрагенты>
+		<CatalogRef.Договоры Имя="Договор">b8a98ba0-6e7a-11ee-b566-a036bc35d755</CatalogRef.Договоры>
+		<d3p1:decimal xmlns:d3p1="http://www.w3.org/2001/XMLSchema" Имя="СуммаДокумента">3800000</d3p1:decimal>
+		<d3p1:string xmlns:d3p1="http://www.w3.org/2001/XMLSchema" Имя="Комментарий"/>
+		<EnumRef.ТипыЦен Имя="ТипЦенНоменклатуры">Розничная</EnumRef.ТипыЦен>
+		<CatalogRef.Пользователи Имя="Менеджер">00000000-0000-0000-0000-000000000000</CatalogRef.Пользователи>
+		<d3p1:boolean xmlns:d3p1="http://www.w3.org/2001/XMLSchema" Имя="УправленческийУчет">false</d3p1:boolean>
+		<d3p1:boolean xmlns:d3p1="http://www.w3.org/2001/XMLSchema" Имя="БухгалтерскийУчет">false</d3p1:boolean>
+		<d3p1:decimal xmlns:d3p1="http://www.w3.org/2001/XMLSchema" Имя="Курс">30</d3p1:decimal>
+		<CatalogRef.Организация Имя="Организация">9a666fb2-77ec-11ee-b56e-a036bc35d755</CatalogRef.Организация>
+		<EnumRef.ВидОперации Имя="ВидОперации">Покупка</EnumRef.ВидОперации>
+		<CatalogRef.Склады Имя="Склад">00000000-0000-0000-0000-000000000000</CatalogRef.Склады>
+		<ТабличнаяЧасть Имя="Товары">
+			<СтрокаТабличнойЧасти>
+				<CatalogRef.Номенклатура ИмяТЧ="Номенклатура">b5fa999a-534b-11df-99a5-00241dd40e22</CatalogRef.Номенклатура>
+				<d5p1:decimal xmlns:d5p1="http://www.w3.org/2001/XMLSchema" ИмяТЧ="Количество">100</d5p1:decimal>
+				<d5p1:decimal xmlns:d5p1="http://www.w3.org/2001/XMLSchema" ИмяТЧ="Цена">32000</d5p1:decimal>
+				<d5p1:decimal xmlns:d5p1="http://www.w3.org/2001/XMLSchema" ИмяТЧ="Сумма">3200000</d5p1:decimal>
+				<EnumRef.ТипыЦен ИмяТЧ="ТипЦенНоменклатуры"/>
+			</СтрокаТабличнойЧасти>
+			<СтрокаТабличнойЧасти>
+				<CatalogRef.Номенклатура ИмяТЧ="Номенклатура">0dc1077d-820e-11ee-b577-a036bc35d755</CatalogRef.Номенклатура>
+				<d5p1:decimal xmlns:d5p1="http://www.w3.org/2001/XMLSchema" ИмяТЧ="Количество">100</d5p1:decimal>
+				<d5p1:decimal xmlns:d5p1="http://www.w3.org/2001/XMLSchema" ИмяТЧ="Цена">6000</d5p1:decimal>
+				<d5p1:decimal xmlns:d5p1="http://www.w3.org/2001/XMLSchema" ИмяТЧ="Сумма">600000</d5p1:decimal>
+				<EnumRef.ТипыЦен ИмяТЧ="ТипЦенНоменклатуры"/>
+			</СтрокаТабличнойЧасти>
+		</ТабличнаяЧасть>
+	</DocumentRef.ПоступлениеТоваров>
+</Root>
